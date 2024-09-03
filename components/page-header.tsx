@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils"
 import Link from "next/link"
 import Balance from "react-wrap-balancer"
-import { ModeToggle } from "./mode-toggle"
 
 function PageHeader({
   className,
@@ -13,8 +12,8 @@ function PageHeader({
       <div className="container flex flex-col items-center justify-between gap-4">
         <div className="flex flex-row items-center justify-between w-full">
           <Link href="/">
-            <PageHeaderHeading className="hover:cursor-pointer">Rahul Patni</PageHeaderHeading></Link>
-          <ModeToggle />
+            <PageHeaderHeading className="hover:cursor-pointer">Rahul Patni</PageHeaderHeading>
+          </Link>
         </div>
         {children}
       </div>
