@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Rahul Patni", url: "https://x.com/iAmRahulPatni" }],
   keywords: ["Rahul Patni", "Founding Engineer", "Startups", "Startup", "Early Stage"],
   category: "Engineering",
+  openGraph: {
+    title: "Founding Engineer",
+    description: "Personal website of Rahul Patni",
+    images: ["/static/images/logo.png"],
+  },
   icons: [
     {
       rel: "icon",

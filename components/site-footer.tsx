@@ -1,11 +1,12 @@
 const siteConfig = {
   name: "Rahul Patni",
-  url: "https://patnir.com",
+  url: "https://foundingengineer.com",
   description:
-    "I'm focus on improving engineering outcomes at startups.",
+    "I believe in small but mighty engineering teams.",
   links: {
     linkedin: "https://www.linkedin.com/in/rahulpatni/ ",
-    github: "https://github.com/patnir/patnir.com",
+    github: "https://github.com/patnir",
+    twitter: "https://www.x.com/iAmRahulPatni",
   },
 }
 
