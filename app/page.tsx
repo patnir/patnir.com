@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   category: "Engineering",
   openGraph: {
     title: "Founding Engineer",
-    description: "Startup engineering is a discipline without a textbook. It should have one.",
+    description: "Startup engineering is a discipline without a textbook. It should have one. Written by Rahul Patni.",
     images: ["/static/images/banner.png"],
   },
   icons: [
