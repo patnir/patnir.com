@@ -12,7 +12,7 @@ function PageHeader({
       <div className="container flex flex-col items-center justify-between gap-4">
         <div className="flex flex-row items-center justify-between w-full">
           <Link href="https://foundingengineer.substack.com" target="_blank">
-            <PageHeaderHeading className="hover:cursor-pointer">Rahul Patni - Blog.FoundingEngineer.com</PageHeaderHeading>
+            <PageHeaderHeading className="hover:cursor-pointer">Rahul Patni - FoundingEngineer.substack.com</PageHeaderHeading>
           </Link>
         </div>
         {children}
