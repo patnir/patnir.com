@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   category: "Engineering",
   openGraph: {
     title: "Founding Engineer",
-    description: "The power of small but might engineering teams.",
+    description: "Startup engineering is a discipline without a textbook. It should have one.",
     images: ["/static/images/banner.png"],
   },
   icons: [
