@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   category: "Engineering",
   openGraph: {
     title: "Founding Engineer",
-    description: "Personal website of Rahul Patni",
-    images: ["/static/images/logo.png"],
+    description: "The power of small but might engineering teams.",
+    images: ["/static/images/banner.png"],
   },
   icons: [
     {
