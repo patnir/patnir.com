@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: ["Rahul Patni", "Founding Engineer", "Startups", "Startup", "Early Stage"],
   category: "Engineering",
   openGraph: {
-    title: "Founding Engineer by Rahul Patni",
+    title: "Founding Engineer: Tech Startups from the Inside",
     description: "Startup engineering is a discipline without a textbook. It should have one. Written by Rahul Patni.",
     images: ["/static/images/banner.png"],
   },
