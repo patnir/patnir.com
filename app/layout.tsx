@@ -9,6 +9,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Rahul Patni",
   description: "Personal website of Rahul Patni",
+  icons: [
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      url: "/static/favicons/favicon-32x32.png",
+    },
+  ],
 };
 
 export default function RootLayout({
