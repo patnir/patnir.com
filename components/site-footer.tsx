@@ -13,8 +13,8 @@ const siteConfig = {
 export function SiteFooter() {
   return (
     <footer className="py-6">
+      <iframe src="https://blog.foundingengineer.com/embed" className="w-full h-[200px] bg-white"></iframe>
       <div className="container flex items-center gap-4">
-        {/* <iframe src="https://foundingengineer.substack.com/embed" className="w-full h-[200px] bg-white"></iframe> */}
         <p className="text-balance text-left text-sm leading-loose text-muted-foreground">
           You can find all of my work on{" "}
           <a

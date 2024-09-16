@@ -1,10 +1,10 @@
 import { PageHeader } from "@/components/page-header";
 import { SiteFooter } from "@/components/site-footer";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Merriweather } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const merriweather = Merriweather({ subsets: ["latin"], weight: ["300", "400", "700", "900"] });
 
 export const metadata: Metadata = {
   title: "Rahul Patni",
@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col min-h-screen p-4`}>
+      <body className={`${merriweather.className} flex flex-col min-h-screen p-4`}>
         <PageHeader />
         <main className="flex-grow">
           <div className="">

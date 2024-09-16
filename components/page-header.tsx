@@ -11,8 +11,8 @@ function PageHeader({
     <header className="py-6">
       <div className="container flex flex-col items-center justify-between gap-4">
         <div className="flex flex-row items-center justify-between w-full">
-          <Link href="https://foundingengineer.substack.com" target="_blank">
-            <PageHeaderHeading className="hover:cursor-pointer">Rahul Patni - FoundingEngineer.substack.com</PageHeaderHeading>
+          <Link href="https://blog.foundingengineer.com" target="_blank">
+            <PageHeaderHeading className="hover:cursor-pointer"><span className="text-black">Rahul Patni</span></PageHeaderHeading>
           </Link>
         </div>
         {children}
