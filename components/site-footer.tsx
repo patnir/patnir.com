@@ -13,7 +13,6 @@ const siteConfig = {
 export function SiteFooter() {
   return (
     <footer className="py-6">
-      <iframe src="https://blog.foundingengineer.com/embed" className="w-full h-[200px] bg-white"></iframe>
       <div className="container flex items-center gap-4">
         <p className="text-balance text-left text-sm leading-loose text-muted-foreground">
           You can find all of my work on{" "}
@@ -26,6 +25,16 @@ export function SiteFooter() {
             GitHub
           </a>
           .
+        </p>
+        <p>
+          <a
+            href="cbwallet://miniapp?url=https://starterminiapp.com"
+            target="_blank"
+            className="font-medium text-sm underline underline-offset-4"
+            rel="noopener noreferrer"
+          >
+            Open Starter Mini App
+          </a>
         </p>
       </div>
     </footer>
