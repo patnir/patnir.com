@@ -26,16 +26,6 @@ export function SiteFooter() {
           </a>
           .
         </p>
-        <p>
-          <a
-            href="cbwallet://miniapp?url=https://starterminiapp.com"
-            target="_blank"
-            className="font-medium text-sm underline underline-offset-4"
-            rel="noopener noreferrer"
-          >
-            Open Starter Mini App
-          </a>
-        </p>
       </div>
     </footer>
   )
