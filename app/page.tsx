@@ -39,7 +39,7 @@ export default function Home() {
     <div className="container relative">
       <div className="pr-4">
         <p>
-          I live in Seattle and work at Coinbase (via their acquisition of <a href="https://www.coinbase.com/blog/Coinbase-acquires-team-to-accelerate-privacy-efforts-on-Base" target="_blank" className="text-blue-600">Iron Fish</a>). Previously at <a href="https://atomic.vc" target="_blank" className="text-blue-600">Atomic</a>, <a href="https://ridgelineapps.com" target="_blank" className="text-blue-600">Ridgeline</a>, and Microsoft.
+          I live in Seattle and work at Coinbase (via their acquisition of <a href="https://www.coinbase.com/blog/Coinbase-acquires-team-to-accelerate-privacy-efforts-on-Base" target="_blank" className="text-blue-600">Iron Fish</a>).
         </p>
         <p className="py-2">I write about engineering at startups on my <a href="https://blog.foundingengineer.com" target="_blank" className="text-blue-600">blog</a>.</p>
         <p className="pb-2">
